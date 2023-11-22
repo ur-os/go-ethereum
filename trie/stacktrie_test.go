@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie/testutil"
 	"github.com/stretchr/testify/assert"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/core/rawdb"
+	"github.com/ur-os/go-ethereum/crypto"
+	"github.com/ur-os/go-ethereum/trie/testutil"
 	"golang.org/x/exp/slices"
 )
 

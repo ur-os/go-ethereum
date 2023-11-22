@@ -28,8 +28,8 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/stretchr/testify/require"
+	"github.com/ur-os/go-ethereum/metrics"
 )
 
 // TestFreezerBasics test initializing a freezertable from scratch, writing to the table,

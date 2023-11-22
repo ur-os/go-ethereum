@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/core"
+	"github.com/ur-os/go-ethereum/core/rawdb"
+	"github.com/ur-os/go-ethereum/core/state"
+	"github.com/ur-os/go-ethereum/core/types"
+	"github.com/ur-os/go-ethereum/core/vm"
+	"github.com/ur-os/go-ethereum/eth/tracers"
+	"github.com/ur-os/go-ethereum/log"
+	"github.com/ur-os/go-ethereum/trie"
 )
 
 // noopReleaser is returned in case there is no operation expected

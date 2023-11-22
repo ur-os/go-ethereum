@@ -30,13 +30,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/ur-os/go-ethereum/core"
+	"github.com/ur-os/go-ethereum/core/rawdb"
+	"github.com/ur-os/go-ethereum/core/state"
+	"github.com/ur-os/go-ethereum/core/state/snapshot"
+	"github.com/ur-os/go-ethereum/core/types"
+	"github.com/ur-os/go-ethereum/core/vm"
+	"github.com/ur-os/go-ethereum/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

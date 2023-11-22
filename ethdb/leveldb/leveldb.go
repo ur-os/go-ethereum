@@ -26,15 +26,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/ethdb"
+	"github.com/ur-os/go-ethereum/log"
+	"github.com/ur-os/go-ethereum/metrics"
 )
 
 const (

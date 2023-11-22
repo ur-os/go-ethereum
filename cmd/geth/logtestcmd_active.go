@@ -25,9 +25,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/holiman/uint256"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/log"
 	"github.com/urfave/cli/v2"
 )
 
@@ -42,6 +42,7 @@ This command is only meant for testing.
 
 type customQuotedStringer struct {
 }
+
 func (c customQuotedStringer) String() string {
 	return "output with 'quotes'"
 }
@@ -77,7 +78,6 @@ func logTest(ctx *cli.Context) error {
 		log.Info("uint64", "18,446,744,073,709,551,615", uint64(math.MaxUint64))
 	}
 	{ // Special characters
-
 
 		log.Info("Special chars in value", "key", "special \r\n\t chars")
 		log.Info("Special chars in key", "special \n\t chars", "value")

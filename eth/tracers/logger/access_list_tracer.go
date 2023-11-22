@@ -19,9 +19,9 @@ package logger
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/core/types"
+	"github.com/ur-os/go-ethereum/core/vm"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

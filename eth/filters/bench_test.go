@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/ur-os/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/common/bitutil"
+	"github.com/ur-os/go-ethereum/core/bloombits"
+	"github.com/ur-os/go-ethereum/core/rawdb"
+	"github.com/ur-os/go-ethereum/core/types"
+	"github.com/ur-os/go-ethereum/ethdb"
+	"github.com/ur-os/go-ethereum/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

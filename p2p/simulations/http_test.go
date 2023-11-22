@@ -29,14 +29,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
+	"github.com/ur-os/go-ethereum/event"
+	"github.com/ur-os/go-ethereum/log"
+	"github.com/ur-os/go-ethereum/node"
+	"github.com/ur-os/go-ethereum/p2p"
+	"github.com/ur-os/go-ethereum/p2p/enode"
+	"github.com/ur-os/go-ethereum/p2p/simulations/adapters"
+	"github.com/ur-os/go-ethereum/rpc"
 )
 
 func TestMain(m *testing.M) {

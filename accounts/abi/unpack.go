@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ur-os/go-ethereum/common"
 )
 
 var (

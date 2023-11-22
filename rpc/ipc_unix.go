@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-ethereum/log"
 )
 
 const (
